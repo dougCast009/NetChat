@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ABSqu41rK1HcKKITrHlvcoKu4trBsVLvuVChxl2+sEWPm6UhODtV+8eHEpDlWLjZot2xqoSckElzkqjap8Ugzg==",
+  "dgSpecHash": "4xClBdrpevrJTzVpDvm2dq9dwj+YBo7Yrc6tLyxGkopLQ+ejw5kTs894xM2pRN5iARGMJfbihv/w8Kak4VOi5A==",
   "success": true,
-  "projectFilePath": "c:\\Users\\dasel\\Documents\\Udemy\\.NetCoreReact\\Repos\\NetChat\\API\\API.csproj",
+  "projectFilePath": "C:\\Users\\dasel\\Documents\\Udemy\\.NetCoreReact\\Repos\\NetChat\\API\\API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\dasel\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\dasel\\.nuget\\packages\\microsoft.data.sqlite.core\\6.0.1\\microsoft.data.sqlite.core.6.0.1.nupkg.sha512",

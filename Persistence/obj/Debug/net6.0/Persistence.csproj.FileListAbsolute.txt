@@ -13,3 +13,5 @@ C:\Users\dasel\Documents\Udemy\.NetCoreReact\Repos\NetChat\Persistence\obj\Debug
 C:\Users\dasel\Documents\Udemy\.NetCoreReact\Repos\NetChat\Persistence\obj\Debug\net6.0\Persistence.dll
 C:\Users\dasel\Documents\Udemy\.NetCoreReact\Repos\NetChat\Persistence\obj\Debug\net6.0\ref\Persistence.dll
 C:\Users\dasel\Documents\Udemy\.NetCoreReact\Repos\NetChat\Persistence\obj\Debug\net6.0\Persistence.pdb
+C:\Users\dasel\Documents\Udemy\.NetCoreReact\Repos\NetChat\Persistence\bin\Debug\net6.0\Persistence.runtimeconfig.json
+C:\Users\dasel\Documents\Udemy\.NetCoreReact\Repos\NetChat\Persistence\obj\Debug\net6.0\Persistence.genruntimeconfig.cache

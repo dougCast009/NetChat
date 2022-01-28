@@ -1,4 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
+using Persistence;
 
 namespace API.Controllers
 {
@@ -6,16 +7,23 @@ namespace API.Controllers
     [Route("api/[controller]")]
     public class ChannelsController : ControllerBase
     {
+        private DataContext _context;
+
+        public ChannelsController(DataContext context)
+        {
+            _context = context ?? throw new ArgumentNullException(nameof(context));
+        }
         public IActionResult Get()
         {
-            var channels = new String[] {".NetCore", "ReactJs", "Angular"};
+            var channels = _context.Channels.ToList();
             return Ok(channels);
         }
 
         [HttpGet("{id}")]
-        public IActionResult Get(int id)
+        public IActionResult Get(Guid id)
         {
-            return Ok(".NetCore");
+            var channel = _context.Channels.FirstOrDefault(x => x.id == id);
+            return Ok(channel);
         }
     }
 }
