@@ -1,17 +1,97 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\dasel\\Documents\\Udemy\\.NetCoreReact\\Repos\\NetChat\\Application\\Application.csproj": {}
+    "c:\\Users\\dasel\\Documents\\Udemy\\.NetCoreReact\\Repos\\NetChat\\Application\\Application.csproj": {}
   },
   "projects": {
-    "C:\\Users\\dasel\\Documents\\Udemy\\.NetCoreReact\\Repos\\NetChat\\Application\\Application.csproj": {
+    "c:\\Users\\dasel\\Documents\\Udemy\\.NetCoreReact\\Repos\\NetChat\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dasel\\Documents\\Udemy\\.NetCoreReact\\Repos\\NetChat\\Application\\Application.csproj",
+        "projectUniqueName": "c:\\Users\\dasel\\Documents\\Udemy\\.NetCoreReact\\Repos\\NetChat\\Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "C:\\Users\\dasel\\Documents\\Udemy\\.NetCoreReact\\Repos\\NetChat\\Application\\Application.csproj",
+        "projectPath": "c:\\Users\\dasel\\Documents\\Udemy\\.NetCoreReact\\Repos\\NetChat\\Application\\Application.csproj",
         "packagesPath": "C:\\Users\\dasel\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dasel\\Documents\\Udemy\\.NetCoreReact\\Repos\\NetChat\\Application\\obj\\",
+        "outputPath": "c:\\Users\\dasel\\Documents\\Udemy\\.NetCoreReact\\Repos\\NetChat\\Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\dasel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "c:\\Users\\dasel\\Documents\\Udemy\\.NetCoreReact\\Repos\\NetChat\\Domain\\Domain.csproj": {
+                "projectPath": "c:\\Users\\dasel\\Documents\\Udemy\\.NetCoreReact\\Repos\\NetChat\\Domain\\Domain.csproj"
+              },
+              "c:\\Users\\dasel\\Documents\\Udemy\\.NetCoreReact\\Repos\\NetChat\\Persistence\\Persistence.csproj": {
+                "projectPath": "c:\\Users\\dasel\\Documents\\Udemy\\.NetCoreReact\\Repos\\NetChat\\Persistence\\Persistence.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "c:\\Users\\dasel\\Documents\\Udemy\\.NetCoreReact\\Repos\\NetChat\\Domain\\Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "c:\\Users\\dasel\\Documents\\Udemy\\.NetCoreReact\\Repos\\NetChat\\Domain\\Domain.csproj",
+        "projectName": "Domain",
+        "projectPath": "c:\\Users\\dasel\\Documents\\Udemy\\.NetCoreReact\\Repos\\NetChat\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\dasel\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\dasel\\Documents\\Udemy\\.NetCoreReact\\Repos\\NetChat\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -45,6 +125,90 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "c:\\Users\\dasel\\Documents\\Udemy\\.NetCoreReact\\Repos\\NetChat\\Persistence\\Persistence.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "c:\\Users\\dasel\\Documents\\Udemy\\.NetCoreReact\\Repos\\NetChat\\Persistence\\Persistence.csproj",
+        "projectName": "Persistence",
+        "projectPath": "c:\\Users\\dasel\\Documents\\Udemy\\.NetCoreReact\\Repos\\NetChat\\Persistence\\Persistence.csproj",
+        "packagesPath": "C:\\Users\\dasel\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\dasel\\Documents\\Udemy\\.NetCoreReact\\Repos\\NetChat\\Persistence\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\dasel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "c:\\Users\\dasel\\Documents\\Udemy\\.NetCoreReact\\Repos\\NetChat\\Domain\\Domain.csproj": {
+                "projectPath": "c:\\Users\\dasel\\Documents\\Udemy\\.NetCoreReact\\Repos\\NetChat\\Domain\\Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
